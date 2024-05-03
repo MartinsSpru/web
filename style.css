@@ -37,4 +37,5 @@ h1{
     height: 200px;
     width: 100%;
     background-image: url("img/upperpic.jpg");
+    text-align: center;
 }
