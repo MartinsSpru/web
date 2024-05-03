@@ -32,15 +32,16 @@ h1{
 }
 
 .upperpictext{
-    margin-top: 90px;
+    position: absolute;
+    margin-top: 75px;
     width: 100%;
     text-align: center;
     text-decoration: none;
-    text-overflow: hidden;
+    font-size: 50px;
 }
 
 #upperpic{
     margin: 0px;
     height: 200px;
-    width: 100px;
+    width: 100%;
 }
