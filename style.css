@@ -32,7 +32,8 @@ h1{
 }
 
 .upperpictext{
-    position: absolute;
+    position: relative;
+    top: 75px; 
     width: 100%;
     text-align: center;
     text-decoration: none;
