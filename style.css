@@ -31,14 +31,16 @@ h1{
     float: left;
 }
 
-.upperpic{
-    margin-left: 0px;
-    margin-right: 0px;
-    font-family: 'Poppins';
-    background-image: url(img/upperpic.jpg);
-    height: 200px;
+.upperpictext{
+    margin-top: 90px;
     width: 100%;
     text-align: center;
-    text-decoration: hidden;
+    text-decoration: none;
     text-overflow: hidden;
+}
+
+#upperpic{
+    margin: 0px;
+    height: 200px;
+    width: 100px;
 }
