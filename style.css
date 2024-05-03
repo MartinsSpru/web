@@ -31,14 +31,6 @@ h1{
     float: left;
 }
 
-.upperpictext{
-    position: relative;
-    top: 75px; 
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-    font-size: 50px;
-}
 
 #upperpic{
     margin: 0px;
