@@ -30,3 +30,10 @@ h1{
 .navbar li{
     float: left;
 }
+
+
+title{
+    margin: 0px;
+    height: 100;
+    color: brown;
+}
