@@ -32,7 +32,8 @@ h1{
 }
 
 
-title{
+head{
     height: 100;
     background-color: brown;
+    display: block;
 }
