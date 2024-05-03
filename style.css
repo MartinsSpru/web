@@ -35,6 +35,9 @@ h1{
     position: relative;
     text-align: center;
     color: white;
+    padding: 0px;
+    margin: 0px;
+    font-size: 100px;
 }
 .centered{
     position: absolute;
