@@ -36,5 +36,6 @@ h1{
     font-family: 'Poppins';
     background-image: url(img/upperpic.jpg);
     height: 200px;
+    width: 100%;
     text-align: center;
 }
