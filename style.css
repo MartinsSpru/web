@@ -35,7 +35,7 @@ h1{
     position: relative;
     text-align: center;
     color: white;
-    margin-bottom: 0%;
+    padding: 0px;
     margin: 0px;
   }
   .centered {
