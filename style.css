@@ -34,7 +34,7 @@ h1{
 .upperpic{
     margin: 0px;
     font-family: 'Poppins';
-    background-image: url("img/upperpic.jpg");
+    background-image: url(img/upperpic.jpg);
     height: 200px;
     text-align: center;
 }
