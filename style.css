@@ -31,12 +31,12 @@ h1{
     float: left;
 }
 
-.stupidtop{
+.container{
     position: relative;
     text-align: center;
     color: white;
 }
-.stupidtoptext {
+.centered{
     position: absolute;
     top: 50%;
     left: 50%;
