@@ -68,6 +68,9 @@ h3{
     transform: translate(-50%, -50%);
     font-size: 30px;
 }
+.containerimgtop{
+    vertical-align: top;
+}
 .containerimg{
     margin: 0 auto;
     } 
