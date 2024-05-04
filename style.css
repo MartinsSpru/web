@@ -54,6 +54,13 @@ h3{
     transform: translate(-50%, -50%);
     font-size: 100px;
 }
+.centeredmc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
 .containerimg{
     vertical-align: top;
     } 
