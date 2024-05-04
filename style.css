@@ -48,12 +48,11 @@ h3{
     display: block;
 }
 .containermc{
-    position: relative;
+    display: flex;
     text-align: center;
     color: white;
-    padding: 0px;
-    margin: 0px;
-    display: block;
+    justify-content: center;
+    align-items: center;
 }
 .centered{
     position: absolute;
@@ -70,20 +69,8 @@ h3{
     font-size: 30px;
 }
 .containerimg{
-    vertical-align: top;
+    margin: 0 auto;
     } 
-.first{
-    width:50vw;
-    height: 100px;
-    background-color: #c4c4;
-    float: left;
-        
-}
-    
-.second {
-    width: 50vw;
-    height: 100px;
-    background-color: blueviolet;
-    float: right;
-     
+.containermc:not(:last-child) {
+         margin-right: 20px; 
 }
