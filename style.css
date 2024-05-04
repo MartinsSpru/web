@@ -47,6 +47,14 @@ h3{
     margin: 0px;
     display: block;
 }
+.containermc{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
 .centered{
     position: absolute;
     top: 50%;
@@ -64,3 +72,18 @@ h3{
 .containerimg{
     vertical-align: top;
     } 
+.first{
+    width:50vw;
+    height: 100px;
+    background-color: #c4c4;
+    float: left;
+        
+}
+    
+.second {
+    width: 50vw;
+    height: 100px;
+    background-color: blueviolet;
+    float: right;
+     
+}
