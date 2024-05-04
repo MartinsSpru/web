@@ -10,6 +10,8 @@ main{
 }
 h3{
     text-align: center;
+    margin-left: 49%;
+    margin-right: 49%;
 }
 .navbar ul{
     list-style-type: none;
