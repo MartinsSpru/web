@@ -47,6 +47,12 @@ h3{
     margin: 0px;
     display: block;
 }
+.containermc{
+    position: relative;
+    text-align: center;
+    color: white;
+    display: block;
+}
 .containerhold{
     display: flex;
     text-align: center;
