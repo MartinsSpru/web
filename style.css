@@ -15,24 +15,26 @@ h3{
 }
 .navbar ul{
     list-style-type: none;
-    background-color: #e7a400;
+    background-color:#e7a400;
     padding: 0px;
-    margin: 0px;
+    margin: 0px; 
     overflow: hidden;
+    text-align: center;
+}
+.navbar li{
+        display: inline;
+        padding: 0;
 }
 .navbar a{
-    color: white;
+    color:white;
     text-decoration: none;
     padding: 15px;
-    display: block;
+    display: inline-block;
     text-align: center;
-    size: 20px;
+    font-size: 20px;
 }
 .navbar a:hover{
     background-color: #c78f00;
-}
-.navbar li{
-    float: left;
 }
 
 .container{
