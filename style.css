@@ -13,29 +13,30 @@ main{
 h3{
     text-align: center;
 }
-.navbar ul{
-    list-style-type: none;
-    background-color:#e7a400;
-    padding: 0px;
-    margin: 0px; 
-    overflow: hidden;
-    text-align: center;
-}
-.navbar li{
-        display: inline;
-        padding: 0;
-}
-.navbar a{
-    color:white;
-    text-decoration: none;
-    padding: 15px;
-    display: inline-block;
-    text-align: center;
-    font-size: 20px;
-}
-.navbar a:hover{
-    background-color: #c78f00;
-}
+    .navbar ul{
+        list-style-type: none;
+        background-color:#e7a400;
+        padding: 0px;
+        margin: 0px; 
+        overflow: hidden;
+        text-align: center;
+        }
+        .navbar li{
+            display: inline;
+            padding: 0;
+        }
+        .navbar a{
+        color:white;
+        text-decoration: none;
+        padding: 15px;
+        display: inline-block;
+        text-align: center;
+        font-size: 20px;
+        }
+        .navbar a:hover{
+        background-color: #c78f00;
+        }
+        
 
 .container{
     position: relative;
