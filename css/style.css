@@ -96,7 +96,7 @@ hr{
     margin-left: 25%;
     margin-right: 25%;
 }
-.project{
+.project:is(img){
     display: flex;
     right: 50%;
     left: 50%;
