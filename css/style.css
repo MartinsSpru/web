@@ -94,4 +94,6 @@ hr{
 }
 .projects{
     object-fit: contain;
+    margin-left: 25%;
+    margin-right: 25%;
 }
