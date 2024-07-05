@@ -92,14 +92,3 @@ h3{
 hr{
     color: #FDF5E6;
 }
-.projects{
-    margin-left: 25%;
-    margin-right: 25%;
-}
-.project:is(img){
-    display: flex;
-    right: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    object-fit: contain;
-}
