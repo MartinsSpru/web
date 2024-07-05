@@ -92,3 +92,18 @@ h3{
 hr{
     color: #FDF5E6;
 }
+@media screen and (min-width: 300px) and (max-width: 767px){
+    img{
+        max-width: 300px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    img{
+        max-width: 700px;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1700px){
+    img{
+        max-width: 960px;
+    }
+}
