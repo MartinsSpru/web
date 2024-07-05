@@ -96,4 +96,6 @@ hr{
     object-fit: contain;
     margin-left: 25%;
     margin-right: 25%;
+    left: -25%;
+    right: -25%;
 }
