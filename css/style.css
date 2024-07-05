@@ -93,5 +93,5 @@ hr{
     color: #FDF5E6;
 }
 .projects{
-    overflow: none;
+    object-fit: contain;
 }
