@@ -103,9 +103,8 @@ hr{
 }
 .cspj{
     position: relative;
-    text-align: center;
-    color: white;
     display: block;
     width: fit-content;
     height: auto;
+    overflow: hidden;
 }
