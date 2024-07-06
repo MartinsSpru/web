@@ -92,3 +92,18 @@ h3{
 hr{
     color: #FDF5E6;
 }
+.projectscontainercss{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0px;
+    margin-right: 25%;
+    margin-left: 25%;
+    display: block;
+}
+.cspj{
+    position: relative;
+    text-align: center;
+    color: white;
+    display: block;
+}
