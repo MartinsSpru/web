@@ -11,6 +11,9 @@ main{
     color: #273954;
     text-align: center;
 }
+main img{
+    width: 100%;
+}
 h3{
     text-align: center;
 }
