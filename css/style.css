@@ -76,8 +76,8 @@ h3{
 }
 .containerimgtop{
     vertical-align: top;
-    height: clamp(30vh,50%,100vh);
-    width: 100%;
+    height: clamp(30vh,5%,100vh);
+    width: 150%;
 }
 .containerimg{
     margin: 0 auto;
