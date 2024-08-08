@@ -130,6 +130,14 @@ hr{
     margin-right: 1%;
     margin-left: 1%;
 }
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 10px;
+}
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
