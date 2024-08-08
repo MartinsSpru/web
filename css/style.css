@@ -111,7 +111,7 @@ hr{
     overflow: hidden;
 }
 .contactpadge img{
-    width: fit-content;
+    width: 100%;
 }
 /* website optimisation for diffrent screen sizes */
 @media only screen and (max-width: 600px) {
