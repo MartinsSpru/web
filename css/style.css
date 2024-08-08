@@ -107,3 +107,17 @@ hr{
     height: auto;
     overflow: hidden;
 }
+/* website optimisation for diffrent screen sizes */
+@media only screen and (max-width: 600px) {
+    .containermc:not(:last-child) {
+        margin-right: 0px; 
+}
+.containerhold{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+}
