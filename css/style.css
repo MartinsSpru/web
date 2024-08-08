@@ -111,8 +111,7 @@ hr{
     overflow: hidden;
 }
 .contactpadge img{
-    margin-right: 25%;
-    margin-left: 25%;
+    width: fit-content;
 }
 /* website optimisation for diffrent screen sizes */
 @media only screen and (max-width: 600px) {
@@ -127,7 +126,7 @@ hr{
     justify-content: center;
     align-items: center;
 }
-.contactpadge img{
+.contactpadge{
     margin-right: 1%;
     margin-left: 1%;
 }
