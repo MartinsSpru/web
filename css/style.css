@@ -110,6 +110,9 @@ hr{
     height: auto;
     overflow: hidden;
 }
+.contactpadge img{
+    width: 50%;
+}
 /* website optimisation for diffrent screen sizes */
 @media only screen and (max-width: 600px) {
     .containermc:not(:last-child) {
