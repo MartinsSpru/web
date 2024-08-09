@@ -113,12 +113,28 @@ hr{
 .contactpadge img{
     width: 100%;
 }
+.othercontainerhold{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
 /* website optimisation for diffrent screen sizes */
 @media only screen and (max-width: 600px) {
     .containermc:not(:last-child) {
         margin-right: 0px; 
 }
 .containerhold{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.othercontainerhold{
     display: grid;
     grid-template-columns: auto;
     text-align: center;
