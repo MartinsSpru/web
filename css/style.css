@@ -122,7 +122,8 @@ hr{
     align-items: center;
 }
 .containerother{
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
     position: relative;
     text-align: center;
     color: white;
