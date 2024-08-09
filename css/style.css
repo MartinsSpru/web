@@ -122,7 +122,8 @@ hr{
     align-items: center;
 }
 .containerother:not(:last-child) {
-    margin-right: 0px; 
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 .containerother{
     position: relative;
@@ -134,6 +135,9 @@ hr{
 @media only screen and (max-width: 600px) {
     .containermc:not(:last-child) {
         margin-right: 0px; 
+}
+.containerother:not(:last-child) {
+    margin-right: 0px; 
 }
 .containerhold{
     display: grid;
