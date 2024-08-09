@@ -128,6 +128,19 @@ hr{
     display: block;
     padding-top: 20px;
 }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffd05e;
+    color: #191500;
+    text-align: center;
+    font-size: 9px;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
 /* website optimisation for diffrent screen sizes */
 @media only screen and (max-width: 600px) {
     .containermc:not(:last-child) {
