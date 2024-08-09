@@ -143,7 +143,6 @@ hr{
     text-decoration: none;
     margin-bottom: 0px;
     margin-top: 0px;
-    text-decoration: none;
 }
 /* website optimisation for diffrent screen sizes */
 @media only screen and (max-width: 600px) {
