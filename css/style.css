@@ -123,13 +123,13 @@ hr{
 }
 .containerother:not(:last-child) {
     margin-right: 20px;
-    margin-bottom: 20px;
 }
 .containerother{
     position: relative;
     text-align: center;
     color: white;
     display: block;
+    padding-top: 20px;
 }
 /* website optimisation for diffrent screen sizes */
 @media only screen and (max-width: 600px) {
