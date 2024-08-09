@@ -96,14 +96,12 @@ hr{
     color: #FDF5E6;
 }
 .projectscontainercss{
-    position: relative;
     text-align: center;
     padding: 0px;
     margin: 0px;
     display: grid;
 }
 .cspj{
-    position: relative;
     display: block;
     width: fit-content;
     height: auto;
