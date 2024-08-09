@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'Minecraftfont';
+    src: url('Minecraft.otf') format('opentype');
+}
 body{
 margin: 0px;
-font-family: 'Poppins';
-background-color: #FDF5E6;
+font-family: 'Minecraftfont';
+background-color: #ffe2e2;
 }
 main{
     margin-left: 25%;
     margin-right: 25%;
     font-size: 20px;
-    color: #273954;
+    color: white;
     text-align: center;
 }
 h3{
@@ -16,7 +19,7 @@ h3{
 }
     .navbar ul{
         list-style-type: none;
-        background-color:#e7a400;
+        background-color:#b22222;
         padding: 0px;
         margin: 0px; 
         overflow: hidden;
@@ -35,7 +38,7 @@ h3{
         font-size: 20px;
         }
         .navbar a:hover{
-        background-color: #c78f00;
+        background-color: #a60000;
         }
         
 
@@ -133,7 +136,7 @@ hr{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #ffd05e;
+    background-color: #b22222;
     color: #191500;
     text-align: center;
     font-size: 9px;
