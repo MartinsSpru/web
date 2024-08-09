@@ -5,13 +5,13 @@
 body{
 margin: 0px;
 font-family: 'Minecraftfont';
-background-color: #ffe2e2;
+background-color: #deffe1;
 }
 main{
     margin-left: 25%;
     margin-right: 25%;
     font-size: 20px;
-    color: #005800;
+    color: #030035;
     text-align: center;
 }
 h3{
@@ -19,7 +19,7 @@ h3{
 }
     .navbar ul{
         list-style-type: none;
-        background-color:#b22222;
+        background-color:#22b22d;
         padding: 0px;
         margin: 0px; 
         overflow: hidden;
@@ -38,7 +38,7 @@ h3{
         font-size: 20px;
         }
         .navbar a:hover{
-        background-color: #a60000;
+        background-color: #008c0c;
         }
         
 
@@ -136,8 +136,8 @@ hr{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #b22222;
-    color: #191500;
+    background-color: #22b22d;
+    color: white;
     text-align: center;
     font-size: 9px;
     text-decoration: none;
