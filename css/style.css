@@ -162,7 +162,9 @@ hr{
 .navbar a{
     color:white;
     text-decoration: none;
-    padding: 10px;
+    padding: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: inline-block;
     text-align: center;
     font-size: 10px;
