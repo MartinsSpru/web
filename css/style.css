@@ -124,6 +124,12 @@ hr{
 .containerother:not(:last-child) {
     margin-right: 0px; 
 }
+.containerother{
+    position: relative;
+    text-align: center;
+    color: white;
+    display: block;
+}
 /* website optimisation for diffrent screen sizes */
 @media only screen and (max-width: 600px) {
     .containermc:not(:last-child) {
