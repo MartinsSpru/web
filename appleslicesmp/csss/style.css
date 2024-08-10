@@ -144,6 +144,22 @@ hr{
     margin-bottom: 0px;
     margin-top: 0px;
 }
+.rulewikiguideselector {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #22b22d;
+    padding: 10px;
+    margin-top: 50%;
+    margin-bottom: 50%;
+  }
+  .rulewikiguideselector-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2.5px solid #22b22d;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color:#030035;
+  }
 /* website optimisation for diffrent screen sizes */
 @media only screen and (max-width: 600px) {
     .containermc:not(:last-child) {
