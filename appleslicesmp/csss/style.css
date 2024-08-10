@@ -15,6 +15,11 @@ main{
     text-align: center;
     text-decoration: none;
 }
+a {
+    color: inherit; /* Inherits the color from the parent element */
+    text-decoration: none; /* Removes the underline */
+  }
+  
 h3{
     text-align: center;
 }
