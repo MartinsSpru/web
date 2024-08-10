@@ -14,6 +14,7 @@ main{
     color: #030035;
     text-align: center;
     text-decoration: none;
+    margin-bottom: 9px;
 }
 a {
     color: inherit; /* Inherits the color from the parent element */
