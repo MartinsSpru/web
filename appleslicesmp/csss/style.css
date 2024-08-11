@@ -169,8 +169,7 @@ hr{
   }
 .resizeable{
     resize: both;
-    height: 300px;
-    width: 400px;
+    border: 1px solid black;
     overflow: auto;
 }
 /* website optimisation for diffrent screen sizes */
@@ -209,7 +208,7 @@ hr{
     font-size: 10px;
 }
 main{
-    margin: 0px;
+    margin: 1px;
 }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
