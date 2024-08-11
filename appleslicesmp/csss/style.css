@@ -117,6 +117,7 @@ hr{
     height: auto;
     overflow: hidden;
     place-self: center;
+    width: 100%;
 }
 .contactpadge img{
     width: 100%;
