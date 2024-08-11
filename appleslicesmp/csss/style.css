@@ -202,8 +202,7 @@ hr{
     font-size: 10px;
 }
 main{
-    margin-right: 1%;
-    margin-left: 1%;
+    margin: 0px;
 }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
