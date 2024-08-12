@@ -171,6 +171,7 @@ hr{
     resize: both;
     border: 1px solid black;
     overflow: auto;
+    width: 300px;
 }
 /* website optimisation for diffrent screen sizes */
 @media only screen and (max-width: 600px) {
