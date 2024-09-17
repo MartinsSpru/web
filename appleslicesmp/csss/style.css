@@ -140,6 +140,22 @@ hr{
     padding-top: 20px;
 }
 .footer {
+    margin-top: -100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #22b22d;
+    color: white;
+    text-align: center;
+    font-size: 9px;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    transition: margin-top 1s;
+}
+.footer:hover {
+    margin-top: 0;
     position: fixed;
     left: 0;
     bottom: 0;
