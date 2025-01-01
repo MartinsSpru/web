@@ -92,7 +92,10 @@ h3{
 }
 .containerimg{
     margin: 0 auto;
-    } 
+    border-radius: 20%;
+    border-color: #e7a400;
+    border: 10px #e7a400 solid;
+    }
 .containermc:not(:last-child) {
          margin-right: 20px; 
 }
