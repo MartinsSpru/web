@@ -31,6 +31,7 @@ function filtereffects() {
         const text = item.textContent.toLowerCase();
         if (text.includes(input)) {
             matches.push(item);
+            item.style.display = 'list-item';
         } else {
             item.style.display = 'none';
         }
@@ -97,7 +98,9 @@ function generateRecipe() {
     let recipeText = `${name}:\n`;
     recipeText += `    name: ${rawName}\n`;
     recipeText += `    ingredients:\n${ingredients}\n`;
-    recipeText += `    effects:\n${effects}\n`;
+    if (effects) {
+        recipeText += `    effects:\n${effects}\n`;
+    }
     recipeText += `    cookingtime: ${cookingTime}\n`;
     if (shouldDistill) {
         recipeText += `    distillruns: 3\n`;
