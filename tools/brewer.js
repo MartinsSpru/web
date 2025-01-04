@@ -90,7 +90,7 @@ function generateRecipe() {
     const alcohol = alcoholInput ? alcoholInput.value : '';
 
     const colorInput = document.querySelector('input[name="potionColor"]');
-    const color = colorInput ? colorInput.value : '';
+    const color = colorInput ? colorInput.value.replace('#', '') : '';
 
     const recipeOutput = document.getElementById('recipe-output');
     recipeOutput.innerHTML = ''; // Clear previous output
@@ -111,8 +111,10 @@ function generateRecipe() {
         recipeText += `    age: ${ageTime}\n`;
     }
     recipeText += `    difficulty: ${difficulty}\n`;
-    recipeText += `    alcohol: ${alcohol}\n`;
-    recipeText += `    color: ${color}`;
+    if (alcohol) {
+        recipeText += `    alcohol: ${alcohol}\n`;
+    }
+    recipeText += `    color: '${color}'`;
 
     const createDiv = (text) => {
         const div = document.createElement('div');
