@@ -189,13 +189,13 @@ hr{
 .imageandundertextflex img{
     border-radius: 10%;
 }
-.topundertext p{
-    margin-right: 5%;
-    margin-left: 5%;
-    font-size: 10px;
-    position: relative;
-    margin-top: -27px;
-    margin-bottom: 5px;
+.todolist{
+    background-color: white;
+    border-radius: 10%;
+    border-width: 5px;
+}
+#delbutton{
+    height: 17px;
 }
 /* website optimisation for diffrent screen sizes */
 @media only screen and (max-width: 600px) {
