@@ -1,5 +1,7 @@
-window.onload = change_background;
-window.onload = getTemperature;
+window.onload = function() {
+  change_background();
+  getTemperature();
+};
 
 function change_background() {
   let d = new Date();
