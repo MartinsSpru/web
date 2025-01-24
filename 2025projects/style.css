@@ -10,8 +10,6 @@ background-color: #FDF5E6;
     background-color: #e7fde6;
 }
 main{
-    margin-left: 25%;
-    margin-right: 25%;
     font-size: 20px;
     color: #273954;
     text-align: center;
@@ -141,11 +139,16 @@ hr{
     display: block;
     padding-top: 20px;
 }
-.projectgrid{
+.projectgrid {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-content: center;
-    align-items: center;
+    align-items: start; /* Align items to the start of the grid */
+    grid-auto-rows: 500px;
+    gap: 20px; /* Optional: Add some space between grid items */
+    margin-right: 5%;
+    margin-left: 5%;
+    
 }
 .flexcontaineritembig{
     display: block;
