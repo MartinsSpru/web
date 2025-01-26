@@ -84,6 +84,16 @@ h3{
     transform: translate(-50%, -50%);
     font-size: 30px;
 }
+.centeredtextteapot{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+
+}
 .containerimgtop{
     vertical-align: top;
     max-height: 200px;
