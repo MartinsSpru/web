@@ -65,8 +65,8 @@ function questionRefresh(){
         quizQuestion = "<p>Whats this mob called?</p>";
         option1 = "<p><b>Kazahstan</b></p>";
         option2 = "<p><b>Phantom</b></p>";
-        option3 = "<p><b>Kristofers</b></p>";
-        option4 = "<p><b>Pēteris</b></p>";
+        option3 = "<p><b>Kriptomafia</b></p>";
+        option4 = "<p><b>Peter Grifin</b></p>";
     }else if(curentQuestion == 7){ // correct answer 3 *
         quizImage = "img/isreal.jpg";
         quizQuestion = "<p>Is this a real mob?</p>";
@@ -80,7 +80,7 @@ function questionRefresh(){
         option1 = "<p><b>No</b></p>";
         option2 = "<p><b>Yes, In serbia</b></p>";
         option3 = "<p><b>Jonasekon</b></p>";
-        option4 = "<p><b>Jāzeps</b></p>";
+        option4 = "<p><b>Lonely lonely..</b></p>";
     }else if(curentQuestion == 9){ // correct answer 2 *
         quizImage = "img/mojangmake.jpg";
         quizQuestion = "<p>Did mojang make this?</p>";
@@ -92,7 +92,7 @@ function questionRefresh(){
         quizImage = "img/whatblock.jpg";
         quizQuestion = "<p>What blocks is the wall made from?</p>";
         option1 = "<p><b>Dirt</b></p>";
-        option2 = "<p><b>Valdis</b></p>";
+        option2 = "<p><b>Valdimir</b></p>";
         option3 = "<p><b>Rosiya</b></p>";
         option4 = "<p><b>Glass</b></p>";
     }
