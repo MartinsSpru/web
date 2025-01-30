@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+margin: 0px;
+font-family: 'Poppins';
+background-color: #FDF5E6;
+}
+#tiktoksmpdickorsdlinks{
+    margin: 0px;
+    font-family: 'Poppins';
+    background-color: #e7fde6;
+}
+#score{
+    display: none;
+    position: relative;
+    width: max(300px, 80%);
+    margin: 0 auto;
+    height: 300px;
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.5s ease-in-out;
+}
+.quiz {
+    position: relative;
+    width: max(300px, 80%);
+    margin: 0 auto;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+#quizimage{
+    width: 100%;
+}
+.quiz.show {
+    opacity: 1;
+}
+.quizholder{
+    display: grid;
+    position: relative;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+}
+.quizholder button{
+    width: 100%;
+    height: 80px;
+    border-radius: 0%;
+    border-color: rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+.quizholder button p{
+    font-size: 20px;
+    padding: 0;
+    margin: 1%;
+    overflow: hidden;
+}
+#option1{
+    background-color: #cc1f1f;
+    color: #FFFFFF;
+}
+#option2{
+    background-color: #1f78cc;
+    color: #FFFFFF;
+}
+#option3{
+    background-color: #ffd414;
+    color: #FFFFFF;
+}
+#option4{
+    background-color: #47cc1f;
+    color: #ffffff;
+}
+#option1:hover{
+    background-color: #aa1a1a;
+    color: #ebebeb;
+}
+#option2:hover{
+    background-color: #1c6ab3;
+    color: #ebebeb;
+}
+#option3:hover{
+    background-color: #e0bb15;
+    color: #ebebeb;
+}
+#option4:hover{
+    background-color: #3fb11d;
+    color: #ebebeb;
+}
+.progressbar{
+    margin-top: 1vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    background-color: gray;
+    border: black;
+    border-radius: 20px;
+    border-width: 10px;
+    width: 100%;
+    height: 30px;
+}
+#progressbarinside{
+    background-color: #36bc2e;
+    width: 10%;
+    height: 20px;
+    border-radius: 20px;
+    border-width: 10px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+main img{
+    max-width: 300px;
+    height: auto;
+}
+main{
+
+    font-size: 20px;
+    color: #273954;
+    text-align: center;
+}
+a {
+    color: inherit; /* Inherits the color from the parent element */
+    text-decoration: none; /* Removes the underline */
+  }
+  
+h3{
+    text-align: center;
+}
+    .navbar ul{
+        list-style-type: none;
+        background-color:#e7a400;
+        padding: 0px;
+        margin: 0px; 
+        overflow: hidden;
+        text-align: center;
+        }
+        .navbar li{
+            display: inline;
+            padding: 0;
+        }
+        .navbar a{
+        color:white;
+        text-decoration: none;
+        padding: 15px;
+        display: inline-block;
+        text-align: center;
+        font-size: 20px;
+        }
+        .navbar a:hover{
+        background-color: #c78f00;
+        }
+        
+
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+.containermc{
+    position: relative;
+    text-align: center;
+    color: white;
+    display: block;
+}
+.containerhold{
+    display: flex;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: clamp(6vw,50%,92vw);
+}
+.centeredmc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+.containerimgtop{
+    vertical-align: top;
+    max-height: 200px;
+    min-height: 100px;
+    width: 100%;
+}
+.containerimg{
+    margin: 0 auto;
+    border-radius: 20%;
+    border-color: #e7a400;
+    border: 10px #e7a400 solid;
+    }
+.containermc:not(:last-child) {
+         margin-right: 20px; 
+}
+.downloadbutton{
+    background-color: #36bc2e;
+    color: white;
+    font-size: 30px;
+    size: 35px;
+}
+hr{
+    color: #FDF5E6;
+}
+.projectscontainercss{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+}
+.cspj{
+    display: block;
+    width: fit-content;
+    height: auto;
+    overflow: hidden;
+    place-self: center;
+}
+.contactpadge img{
+    width: 100%;
+}
+.othercontainerhold{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.containerother{
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    text-align: center;
+    color: white;
+    display: block;
+    padding-top: 20px;
+}
+.projectgrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+.flexcontaineritembig{
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+
+.imageandundertextflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.undertext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    
+}
+.flexcontaineritembig p{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -10px;
+    font-size: 16px;
+}
+.flexcontaineritembig p:not(:last-child) {
+    margin-bottom: 10px; 
+}
+.imageandundertextflex p{
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 10px;
+    position: relative;
+    margin-top: -10px;
+    display: inline-block
+}
+.imageandundertextflex img{
+    border-radius: 10%;
+}
+.todolist{
+    background-color: white;
+    border-radius: 10%;
+    border-width: 5px;
+}
+#delbutton{
+    height: 17px;
+}
+/* website optimisation for diffrent screen sizes */
+@media only screen and (max-width: 600px) {
+    .projectgrid{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .containermc:not(:last-child) {
+        margin-right: 0px; 
+}
+.containerhold{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.othercontainerhold{
+    display: grid;
+    grid-template-columns: auto ;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.contactpadge{
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 10px;
+}
+main{
+    margin-right: 1%;
+    margin-left: 1%;
+}
+}
+@media only screen and (max-width: 900px) {
+    .projectgrid{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
