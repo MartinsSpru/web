@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+margin: 0px;
+font-family: 'Poppins';
+background-color: #FDF5E6;
+}
+.bottomcalculator{
+    
+    display: flex;
+    gap: 10px;
+    width: 100%;
+
+}
+.total{
+    border-right: #ffffff dashed;
+    width: 70%;
+}
+#totalcost{
+    width: 30%;
+}
+.bottompart{
+    margin-top: 10px;
+    border-top: #ffffff dashed;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    bottom: 0;
+}
+#name{
+    border-right: #ffffff dashed;
+    width: 70%;
+    
+}
+#cost{
+    width: 30%;
+    
+}
+#name p{
+    border-bottom: #ffffff dashed;
+}
+#cost p{
+    border-bottom: #ffffff dashed;
+}
+.expensetrackerholder{
+    display: flex;
+    flex-direction: column;
+    background-color: seagreen;
+    border: #e7a400 solid;
+    width: max(300px, 80%);
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+.topinteractionbar input:focus {
+    border-color: seagreen; /* Optional: Change border color on focus */
+    outline: none; /* Ensure no outline on focus */
+    caret-color: seagreen;
+    background-color: #ffffff;
+    color: seagreen;
+    transition: border 1s ease, background-color 1s ease, color 1s ease;
+}
+.toptrackertext{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    gap: 1vw;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    cursor: default;
+}
+.toptrackertext h3{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    
+}
+.toptotalholder{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.topinteractionbar{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    gap: 1vw;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+.topinteractionbar input{
+    height: 3vh;
+    border: #ffffff dashed;
+    background-color: transparent;
+    border-radius: 10%;
+    margin: 0; 
+    padding: 0;
+    caret-color: #ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    transition: border 1s ease, background-color 1s ease, color 1s ease;
+}
+.topinteractionbar input:hover{
+    height: 3vh;
+    border: seagreen dashed;
+    background-color: #ffffff;
+    border-radius: 10%;
+    margin: 0; 
+    padding: 0;
+    caret-color: seagreen;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: seagreen;
+    font-weight: bold;
+    transition: border 1s ease, background-color 1s ease, color 1s ease;
+    
+}
+.firsttextbox{
+    width: 28vw;
+}
+#nameOfExpense{
+    width: 28vw;
+}
+.secondtextbox{
+    width: 10vw;
+}
+#costOfExpense{
+    width: 10vw;
+}
+.annoyingspacerthatidontknowhowtododiffrently{
+    width: 5.5vw;
+}
+.topinteractionbar button{
+    height: 3vh;
+    border: #ffffff dashed;
+    background-color: transparent;
+    border-radius: 10%;
+    width: 5.5vw;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    transition: border 1s ease, background-color 1s ease, color 1s ease;
+}
+.topinteractionbar button:hover{
+    height: 3vh;
+    border: seagreen dashed;
+    background-color: #ffffff;
+    border-radius: 10%;
+    width: 5.5vw;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    color: seagreen;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    cursor: pointer;
+    transition: border 1s ease, background-color 1s ease, color 1s ease;
+}
+main{
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: 20px;
+    color: #273954;
+    text-align: center;
+}
+a {
+    color: inherit; /* Inherits the color from the parent element */
+    text-decoration: none; /* Removes the underline */
+  }
+  
+h3{
+    text-align: center;
+}
+    .navbar ul{
+        list-style-type: none;
+        background-color:#e7a400;
+        padding: 0px;
+        margin: 0px; 
+        overflow: hidden;
+        text-align: center;
+        }
+        .navbar li{
+            display: inline;
+            padding: 0;
+        }
+        .navbar a{
+        color:white;
+        text-decoration: none;
+        padding: 15px;
+        display: inline-block;
+        text-align: center;
+        font-size: 20px;
+        }
+        .navbar a:hover{
+        background-color: #c78f00;
+        }
+        
+
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+.containermc{
+    position: relative;
+    text-align: center;
+    color: white;
+    display: block;
+}
+.containerhold{
+    display: flex;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: clamp(6vw,50%,92vw);
+}
+.centeredmc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+.containerimgtop{
+    vertical-align: top;
+    max-height: 200px;
+    min-height: 100px;
+    width: 100%;
+}
+.containerimg{
+    margin: 0 auto;
+    border-radius: 20%;
+    border-color: #e7a400;
+    border: 10px #e7a400 solid;
+    }
+.containermc:not(:last-child) {
+         margin-right: 20px; 
+}
+.downloadbutton{
+    background-color: #36bc2e;
+    color: white;
+    font-size: 30px;
+    size: 35px;
+}
+hr{
+    color: #FDF5E6;
+}
+.projectscontainercss{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+}
+.cspj{
+    display: block;
+    width: fit-content;
+    height: auto;
+    overflow: hidden;
+    place-self: center;
+}
+.contactpadge img{
+    width: 100%;
+}
+.othercontainerhold{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.containerother{
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    text-align: center;
+    color: white;
+    display: block;
+    padding-top: 20px;
+}
+.projectgrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+.flexcontaineritembig{
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+
+.imageandundertextflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.undertext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    
+}
+.flexcontaineritembig p{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -10px;
+    font-size: 16px;
+}
+.flexcontaineritembig p:not(:last-child) {
+    margin-bottom: 10px; 
+}
+.imageandundertextflex p{
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 10px;
+    position: relative;
+    margin-top: -10px;
+    display: inline-block
+}
+.imageandundertextflex img{
+    border-radius: 10%;
+}
+.todolist{
+    background-color: white;
+    border-radius: 10%;
+    border-width: 5px;
+}
+#delbutton{
+    height: 17px;
+}
+/* website optimisation for diffrent screen sizes */
+@media only screen and (max-width: 600px) {
+    .projectgrid{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .containermc:not(:last-child) {
+        margin-right: 0px; 
+    }
+    .topinteractionbar{
+        gap: 2vw;
+    }
+    .toptrackertext{
+        gap: 2vw;
+    }
+    .containerhold{
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    .othercontainerhold{
+        display: grid;
+        grid-template-columns: auto ;
+        text-align: center;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    .contactpadge{
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+    .navbar a{
+        color:white;
+        text-decoration: none;
+        padding: 6px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: inline-block;
+        text-align: center;
+        font-size: 10px;
+    }
+    main{
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .topinteractionbar{
+        gap: 2vw;
+    }
+    .toptrackertext{
+        gap: 2vw;
+    }
+    .firsttextbox{
+        width: 50%;
+    }
+    #nameOfExpense{
+        width: 50%;
+    }
+    .secondtextbox{
+        width: 30%;
+    }
+    #costOfExpense{
+        width: 30%;
+    }
+    .annoyingspacerthatidontknowhowtododiffrently{
+        width: 15%;
+    }
+    .topinteractionbar button{
+        width: 15%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .expensetrackerholder{
+        width: 100%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+@media only screen and (max-width: 363px) {
+    .toptrackertext h3{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .projectgrid{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
