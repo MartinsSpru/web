@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+margin: 0px;
+font-family: 'Poppins';
+background-color: #FDF5E6;
+}
+/*Honefarmer css start*/
+#loadsaveinput{
+    width: 80%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 3px;
+}
+.savingmenusnshit{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-content: center;
+    justify-content: center;
+}
+.savingmenusnshit button{
+    width: 80%;
+    justify-self: center;
+    align-self: center;
+    background-color: #337ec4;
+    color: white;
+    border: #ffffff 3px solid;
+    border-radius: 7px;
+    transition: all 0.5s ease-in;
+}
+.savingmenusnshit button:hover{
+    width: 80%;
+    justify-self: center;
+    align-self: center;
+    background-color: #ffffff;
+    color: #337ec4;
+    border: #337ec4 3px solid;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+#savingloadingmenulayout{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 5px;
+}
+.displayal{
+    background-color: #20af18;
+    color: #ffffff;
+    border: white 3px solid;
+    border-radius: 10px;
+    height: 34px;
+    width: 80px;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.displayal p{
+    padding: 0;
+}
+.alocation{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+.alocation button{
+    cursor: pointer;
+    background-color: #20af18;
+    color: #ffffff;
+    border: white 3px solid;
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.info p{
+    padding: none;
+}
+.Unlock {
+    cursor: pointer;
+    background-color: #20af18;
+    height: 30px;
+    width: 50%;
+    justify-self: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border: white 3px solid;
+    border-radius: 12px;
+}
+.Buy {
+    cursor: pointer;
+    background-color: #20af18;
+    height: 30px;
+    width: 50%;
+    justify-self: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border: white 3px solid;
+    border-radius: 12px;
+}
+.nounlockblocker{
+    position: absolute;
+    display: flex;
+    z-index: 5;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1%;
+    background-color: #686868;
+    height: 100%;
+    width: 100%;
+    justify-self: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.layoutitem{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    z-index: 4;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+.layoutitem p{
+    padding: 0;
+    margin: 0;
+}
+.upgradelayout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    align-items: start; /* Align items to the start of the grid */
+    grid-auto-rows: 400px;
+    row-gap: 20px;
+    gap: 20px; /* Optional: Add some space between grid items */
+    margin-right: 5%;
+    margin-left: 5%;
+}
+#honeyfarmerbundle{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+}
+#grassfield{
+    position: relative;
+    display: block;
+    background-color: #20af18;
+    height: calc(100% - 7px);
+    width: calc(100% - 20%);
+    border: #472c03 solid 7px;
+    border-top: none;
+    border-left: none;
+    overflow: hidden;
+}
+.bee{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    transition: top 1s linear, left 1s linear;
+}
+#flowerpatch{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    transition: top 1s linear, left 1s linear;   
+}
+.menuoverlay{
+    z-index: 3;
+    background-color: #337ec4;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: none;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-x: auto;
+    color: #ffffff;
+}
+.layoutitem img{
+    position: relative;
+    height: 140px;
+    width: 140px;
+    justify-self: center;
+    align-self: center;
+}
+#honeybuttons{
+    height: calc(100% - 7px);
+    width: 20%;
+    background-color: #337ec4;
+    display: flex;
+    flex-direction: column;
+    border-bottom: #472c03 solid 7px;
+}
+#honeybuttons button{
+    height: calc(100% / 5);
+    background: rgba(51,126,196,1);
+    color: #FFFFFF;
+    font-size: larger;
+    border: none;
+    justify-content: center;
+    align-content: center;
+}
+#honeybuttons button:hover{
+    cursor: pointer;
+    height: calc(100% / 5);
+    background: linear-gradient(0deg, rgba(51,126,196,1) 0%, rgba(95,169,237,1) 50%, rgba(51,126,196,1) 100%);
+    color: #FFFFFF;
+    font-size: larger;
+    border: none;
+}
+#honeybuttons button p{
+    display: block;
+}
+#honeybuttons button img{
+    display: none;
+}
+#mobilehome{
+    display: none;
+}
+#honeyfarmerinfoline{
+    height: 20%;
+    background-color: #337ec4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-left: 10%;
+    gap: 10px;
+}
+#honeyfarmerinfoline img{
+    height: 20px;
+}
+#honeyfarmerinfoline p{
+    font-size: larger;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10px;
+    border-radius: 10px;
+    color: #000000;
+}
+/*Honefarmer css end*/
+main{
+    height: 85dvh;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: 20px;
+    color: #273954;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+a {
+    color: inherit; /* Inherits the color from the parent element */
+    text-decoration: none; /* Removes the underline */
+  }
+  
+h3{
+    text-align: center;
+}
+    .navbar ul{
+        list-style-type: none;
+        background-color:#e7a400;
+        padding: 0px;
+        margin: 0px; 
+        overflow: hidden;
+        text-align: center;
+        }
+        .navbar li{
+            display: inline;
+            padding: 0;
+        }
+        .navbar a{
+        color:white;
+        text-decoration: none;
+        padding: 15px;
+        display: inline-block;
+        text-align: center;
+        font-size: 20px;
+        }
+        .navbar a:hover{
+        background-color: #c78f00;
+        }
+        
+
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+.containermc{
+    position: relative;
+    text-align: center;
+    color: white;
+    display: block;
+}
+.containerhold{
+    display: flex;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: clamp(6vw,50%,92vw);
+}
+.centeredmc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+.containerimgtop{
+    vertical-align: top;
+    max-height: 200px;
+    min-height: 100px;
+    width: 100%;
+}
+.containerimg{
+    margin: 0 auto;
+    border-radius: 20%;
+    border-color: #e7a400;
+    border: 10px #e7a400 solid;
+    }
+.containermc:not(:last-child) {
+         margin-right: 20px; 
+}
+.downloadbutton{
+    background-color: #36bc2e;
+    color: white;
+    font-size: 30px;
+    size: 35px;
+}
+hr{
+    color: #FDF5E6;
+}
+.projectscontainercss{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+}
+.cspj{
+    display: block;
+    width: fit-content;
+    height: auto;
+    overflow: hidden;
+    place-self: center;
+}
+.contactpadge img{
+    width: 100%;
+}
+.othercontainerhold{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.containerother{
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    text-align: center;
+    color: white;
+    display: block;
+    padding-top: 20px;
+}
+.projectgrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+.flexcontaineritembig{
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+
+.imageandundertextflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.undertext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    
+}
+.flexcontaineritembig p{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -10px;
+    font-size: 16px;
+}
+.flexcontaineritembig p:not(:last-child) {
+    margin-bottom: 10px; 
+}
+.imageandundertextflex p{
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 10px;
+    position: relative;
+    margin-top: -10px;
+    display: inline-block
+}
+.imageandundertextflex img{
+    border-radius: 10%;
+}
+.todolist{
+    background-color: white;
+    border-radius: 10%;
+    border-width: 5px;
+}
+#delbutton{
+    height: 17px;
+}
+/* website optimisation for diffrent screen sizes */
+@media only screen and (max-width: 1010px) {
+.savingmenusnshit{
+    width: 100%;
+}
+#savingloadingmenulayout{
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+#honeyfarmerinfoline{
+    height: 20%;
+    overflow: hidden;
+    background-color: #337ec4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2%;
+    padding-left: 2%;
+    gap: 10px;
+    border-bottom: none;
+}
+#honeyfarmerinfoline p{
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10px;
+    border-radius: 10px;
+    color: #000000
+}
+#honeyfarmerinfoline img{
+    height: 15px;
+}
+#honeybuttons button p{
+    display: none;
+}
+#honeybuttons button img{
+    display: block;
+    height: 70%;
+    justify-self: center;
+}
+#mobilehome{
+    display: block;
+}
+#honeybuttons button{
+    height: 100%;
+    width: calc(100% / 6);
+    position: relative;
+}
+#honeyfarmerbundle{
+    flex-direction: column;
+}
+main{
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+#honeybuttons{
+    height: 15%;
+    width: 100%;
+    background-color: #337ec4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#grassfield{
+    z-index: 1;
+    position: relative;
+    display: block;
+    background-color: #20af18;
+    height: 85%;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-bottom: #472c03 solid 7px;
+    border-top: #472c03 solid 7px;
+    overflow: hidden;
+}
+#honeybuttons button:hover{
+    height: 100%;
+    width: calc(100% / 6);
+    position: relative;
+    background: #337ec4;
+}
+}
+
+@media only screen and (max-width: 600px) {
+    .projectgrid{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .containermc:not(:last-child) {
+        margin-right: 0px; 
+}
+.containerhold{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.othercontainerhold{
+    display: grid;
+    grid-template-columns: auto ;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.contactpadge{
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 10px;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}

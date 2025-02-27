@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name=viewport content="width=device-width, initial-scale=1, user-scalable=yes">
+<title>MartinsSpru1</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/jpg" href="../img/favicon.jpg">
+<meta property="og:title"
+content="MartinsSpru"/>
+<meta property="og:description"
+content="MartinsSpru1's 2025 project - HoneyFarmer!"/>
+<meta property="og:image"
+content="../img/favicon.jpg"/>
+<meta property="og:url"
+content="https://martinsspru.com/2025projects/projectselector/honeyfarmer/project"/>
+<script src="script.js"></script>
+</head>
+<body>
+
+<div>
+<div>
+<div class="container">
+    <img src="../img/top.jpg" class="containerimgtop">
+    <div class="centered">MartinsSpru1</div>
+</div>
+</div>
+</div>  
+    <nav class="navbar">
+        <ul>
+            <li><a href="../../index">Home</a></li>
+            <li><a href="../../projects">Projects</a></li>
+            <li><a href="../../links">Contact & Links</a></li>
+            <li><a href="../../texturepacks">Minecraft Textures</a></li>
+            <li><a href="../../other">Other</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="honeyfarmerbundle">
+            <div id="grassfield">
+                <div class="menuoverlay" id="Production">
+                    <h3>Production Upgrades</h3>
+                    <div class="upgradelayout">
+                        <div class="layoutitem">
+                            <div class="nounlockblocker">
+                                <h3>Beekeeper</h3>
+                                <p>Requirements:</p>
+                                <p>1 Bee</p>
+                                <button onclick="unblock(purchasedProduction, 0, 0, 0, 1, 0)" class="Unlock">Unlock</button>
+                            </div>
+                            <h3>Beekeeper</h3>
+                            <img id="relative" src="img/production/beekeeper.png" alt="">
+                            <p>He multiplies your honey per second by 0.025</p>
+                            <button onclick="buy(0, 0, 25)" class="Buy">Buy (25$)</button>
+                        </div>
+                        <div class="layoutitem">
+                            <div class="nounlockblocker">
+                                <h3>Electric Honey Extractor</h3>
+                                <p>Requirements:</p>
+                                <p>20 honey</p>
+                                <button onclick="unblock(purchasedProduction, 1, 20, 0, 0, 0)" class="Unlock">Unlock</button>
+                            </div>
+                            <h3>Electric Honey Extractor</h3>
+                            <img id="relative" src="img/production/electricextractor.png" alt="">
+                            <p>Multiplies your honey per second by 0.26</p>
+                            <button onclick="buy(1, 1, 70)" class="Buy">Buy (250$)</button>
+                        </div>
+                        <div class="layoutitem">
+                            <div class="nounlockblocker">
+                                <h3>Advanced hives</h3>
+                                <p>Requirements:</p>
+                                <p>200 honey</p>
+                                <button onclick="unblock(purchasedProduction, 2, 200, 0, 0, 0)" class="Unlock">Unlock</button>
+                            </div>
+                            <h3>Advanced hives</h3>
+                            <img id="relative" src="img/production/advancedhive.png" alt="">
+                            <p>Multiplies your honey per second by 0.50</p>
+                            <button onclick="buy(2, 2, 200)" class="Buy">Buy (470$)</button>
+                        </div>
+                        <div class="layoutitem">
+                            <div class="nounlockblocker">
+                                <h3>Automated Bottling Machine</h3>
+                                <p>Requirements:</p>
+                                <p>1000 Honey</p>
+                                <button onclick="unblock(purchasedProduction, 3, 1000, 0, 0, 0)" class="Unlock">Unlock</button>
+                            </div>
+                            <h3>Automated Bottling Machine</h3>
+                            <img id="relative" src="img/production/autofiller.png" alt="">
+                            <p>He multiplies your honey per second by 1.17</p>
+                            <button onclick="buy(3, 3, 1000)" class="Buy">Buy (1000$)</button>
+                        </div>
+                        <div class="layoutitem">
+                            <div class="nounlockblocker">
+                                <h3>Field</h3>
+                                <p>Requirements:</p>
+                                <p>2000 Honey</p>
+                                <button onclick="unblock(purchasedProduction, 4, 2000, 0, 0, 0)" class="Unlock">Unlock</button>
+                            </div>
+                            <h3>Field</h3>
+                            <img id="relative" src="img/flowers/3.png" alt="">
+                            <p>Give your bee's another place to fly to</p>
+                            <button onclick="buy(4, 4, 1500)" class="Buy">Buy (1500$)</button>
+                        </div>
+                        <div class="layoutitem">
+                            <div class="nounlockblocker">
+                                <h3>Bee</h3>
+                                <p>Requirements:</p>
+                                <p>10 Fields</p>
+                                <button onclick="unblock(purchasedProduction, 5, 0, 0, 0, 10)" class="Unlock">Unlock</button>
+                            </div>
+                            <h3>Bee</h3>
+                            <img id="relative" src="img/bee.png" alt="">
+                            <p>Another bee</p>
+                            <button onclick="buy(5, 5, 5000)" class="Buy">Buy (5000$)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="menuoverlay" id="Sell">
+                    <h3>Markets</h3>
+                    <sub>Eatch market sells a dozen honey bottles eatch selling cycle</sub>
+                    <div class="upgradelayout">
+                        <div class="layoutitem">
+                            <div class="nounlockblocker">
+                                <h3>Beebook</h3>
+                                <p>Requirements:</p>
+                                <p>20 Honey</p>
+                                <button onclick="unblock(3, 0, 20, 0, 0, 0)" class="Unlock">Unlock</button>
+                            </div>
+                            <h3>Beebook</h3>
+                            <img id="relative" src="img/markets/beeebok.png" alt="">
+                            <div class="info">
+                                <p>Sell price: 2$</p>
+                            </div>
+                        </div>
+                        <div class="layoutitem">
+                            <div class="nounlockblocker">
+                                <h3>Bego</h3>
+                                <p>Requirements:</p>
+                                <p>70 Honey</p>
+                                <button onclick="unblock(3, 1, 70, 0, 0, 0)" class="Unlock">Unlock</button>
+                            </div>
+                            <h3>Bego</h3>
+                            <img id="relative" src="img/markets/bego.png" alt="">
+                            <div class="info">
+                                <p>Sell price: 20$</p>
+                            </div>
+                        </div>
+                        <div class="layoutitem">
+                            <div class="nounlockblocker">
+                                <h3>Bidl</h3>
+                                <p>Requirements:</p>
+                                <p>500 Honey, 100 $</p>
+                                <button onclick="unblock(3, 2, 500, 100, 0, 0)" class="Unlock">Unlock</button>
+                            </div>
+                            <h3>Bidl</h3>
+                            <img id="relative" src="img/markets/Bidl.png" alt="">
+                            <div class="info">
+                                <p>Sell price: 30$</p>
+                            </div>
+                        </div>
+                        <div class="layoutitem">
+                            <div class="nounlockblocker">
+                                <h3>Bixbima</h3>
+                                <p>Requirements:</p>
+                                <p>1k Honey, 1k$, 7 fields</p>
+                                <button onclick="unblock(3, 3, 1000, 1000, 0, 7)" class="Unlock">Unlock</button>
+                            </div>
+                            <h3>Bixbima</h3>
+                            <img id="relative" src="img/markets/bixbima.png" alt="">
+                            <div class="info">
+                                <p>Sell price: 50$</p>
+                            </div>
+                        </div>
+                        <div class="layoutitem">
+                            <div class="nounlockblocker">
+                                <h3>Bimi</h3>
+                                <p>Requirements:</p>
+                                <p>2k Honey, 3k$, 10 fields</p>
+                                <button onclick="unblock(3, 4, 2000, 3000, 0, 10)" class="Unlock">Unlock</button>
+                            </div>
+                            <h3>Bimi</h3>
+                            <img id="relative" src="img/markets/bimi.png" alt="">
+                            <div class="info">
+                                <p>Sell price: 100$</p>
+                            </div>
+                        </div>
+                        <div class="layoutitem">
+                            <div class="nounlockblocker">
+                                <h3>Bear bulk buyers</h3>
+                                <p>Requirements:</p>
+                                <p>30k Honey, 50k$, 5 bee's, 20 fields</p>
+                                <button onclick="unblock(3, 5, 30000, 50000, 5, 20)" class="Unlock">Unlock</button>
+                            </div>
+                            <h3>Bear bulk buyers</h3>
+                            <img id="relative" src="img/markets/BBB.png" alt="">
+                            <div class="info">
+                                <p>Sell price: 200$</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menuoverlay" id="Save">
+                    <h3>Save/Load a save</h3>
+                    <div id="savingloadingmenulayout">
+                        <div class="savingmenusnshit" id="savemenu">
+                            <h3>Save creation:</h3>
+                            <p>Once you press the button a browser alert will pop up with your save code, copy it and save it somewhere</p>
+                            <button onclick="createSave()">Create a save</button>
+                        </div>
+                        <div class="savingmenusnshit" id="loadmenu">
+                            <h3>Save loading:</h3>
+                            <p>Enter in your save code:</p>
+                            <input id="loadsaveinput" type="text">
+                            <button onclick="loadSave()">Load save</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="menuoverlay" id="Help">
+                    <h3>How to play:</h3>
+                    <h3>Upgrade unlocking:</h3>
+                    <p>Every upgrade has to be unlocked, if you meet the requirements after pressing the unlock button then you will gain access to the item, you can try this out with the first item of the production upgrades.</p>
+                    <h3>Getting honey:</h3>
+                    <p>You get some honey every second, if you want to increase the amount of honey you can go and buy production upgrades.</p>
+                    <h3>Getting money:</h3>
+                    <p>To get money you have to unlock markets, you can find those on the sell page.</p>
+                    <h3>Saving:</h3>
+                    <p>To save go to the save page and press 'create a save' then youl get an alert with your code, copy it and save it somewhere.</p>
+                    <h3>Loading a save:</h3>
+                    <p>To load a save you have to put your save code into the loading input field in the save page and then press load save.</p>
+                </div>
+            </div>
+            <div id="honeybuttons">
+                <button onclick="showMenu(5)"><p>Home</p><img src="img/icons/home.png" alt="Home"></button> <!-- Mobile home button, hidden on desktop -->
+                <button onclick="showMenu(0)"><p>Production Upgrades</p><img src="img/icons/gear.png" alt="Production Upgrades"></button>
+                <button onclick="showMenu(1)"><p>Sell</p><img src="img/icons/sell.png" alt="Sell"></button>
+                <Button onclick="showMenu(2)"><p>Save/Load</p><img src="img/icons/save.png" alt="Save/Load"></Button>
+                <Button onclick="showMenu(3)"><p>Help</p><img src="img/icons/help.png" alt="Help"></Button>
+            </div>
+        </div>
+        <div id="honeyfarmerinfoline">
+            <p id="honeyvalue"></p>
+            <p id="moneyvalue"></p>
+            <p id="maxbee"></p>
+            <p id="maxfield"></p>
+        </div>
+    </main>
+
+
+
+
+</body>
+</html>
