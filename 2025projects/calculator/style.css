@@ -4,6 +4,15 @@ margin: 0px;
 font-family: 'Poppins';
 background-color: #FDF5E6;
 justify-content: center;
+text-align: center;
+}
+#bottomwarming{
+    background-color: rgb(255, 255, 0);
+    color: red;
+    justify-self: center;
+    display: flex;
+    text-align: center;
+    margin: 0;
 }
 #topcalctitle{
     justify-content: space-around;
@@ -38,6 +47,8 @@ justify-content: center;
 #calcholder{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    justify-self: center;
     background-color: rgb(228, 232, 235);
     color: black;
     width: 320px;
@@ -57,6 +68,8 @@ justify-content: center;
     justify-content: left;
 }
 main{
+    display: flex;
+    flex-direction: column;
     justify-self: center;
     justify-content: center;
     margin-left: 25%;
