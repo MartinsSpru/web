@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name=viewport content="width=device-width, initial-scale=1, user-scalable=yes">
+<title>MartinsSpru1</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/jpg" href="../img/favicon.jpg">
+<meta property="og:title"
+content="MartinsSpru"/>
+<meta property="og:description"
+content="MartinsSpru1's 2025 project - A Division Game!"/>
+<meta property="og:image"
+content="../img/favicon.jpg"/>
+<meta property="og:url"
+content="https://martinsspru.com/2025projects/projectselector/divisiontest/project"/>
+<script src="script.js"></script>
+</head>
+<body>
+
+<div>
+<div>
+<div class="container">
+    <img src="../img/top.jpg" class="containerimgtop">
+    <div class="centered">MartinsSpru1</div>
+</div>
+</div>
+</div>  
+    <nav class="navbar">
+        <ul>
+            <li><a href="../../index">Home</a></li>
+            <li><a href="../../projects">Projects</a></li>
+            <li><a href="../../links">Contact & Links</a></li>
+            <li><a href="../../texturepacks">Minecraft Textures</a></li>
+            <li><a href="../../other">Other</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h3>Division game</h3>
+        <div id="start" class="startmenu">
+            <p>Whats the biggest number you want to divide with?</p>
+            <input type="number" name="max" id="max">
+            <button onclick="start()">Start</button>
+        </div>
+        <div id="end" class="startmenu">
+            <div id="info">
+                <div class="gue" id="wrong">
+                    <img src="img/x.png" alt="x">
+                    <p id="wrongdisplay">0</p>
+                </div>
+                <div class="gue" id="correct">
+                    <img src="img/check.png" alt="checkmark">
+                    <p id="rightdisplay">0</p>
+                </div>
+            </div>
+            <p id="questiontext">Whats 0 divided by 0?</p>
+            <input type="number" name="answert" id="answert">
+            <button onclick="answer()">Submit</button>
+        </div>
+    </main>
+
+
+
+
+</body>
+</html>
