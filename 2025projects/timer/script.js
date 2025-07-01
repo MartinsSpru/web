@@ -13,7 +13,7 @@ function starttimer(){
         }else{
           document.getElementById('result').innerHTML = `${hours}h and ${minutes}min left`
         }
-        ticktok = setInterval(tick, 1000)
+        ticktok = setInterval(tick, 60000)
     }else{
       console.log('empty')
     }
