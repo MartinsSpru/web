@@ -31,7 +31,7 @@ function fu(){
     text.innerHTML = 'KILLER STEVE IS COMING TAKE THE BRICKS OUT OF THE FURNACE'
 }
 function end(){
-    if(stage = 3){
+    if(stage == 3){
     brickblock.src = 'au/Bricks_JE5_BE3.webp'
     document.body.style.cursor = 'default'
     text.innerHTML = "Phew, we're safe... for now"
